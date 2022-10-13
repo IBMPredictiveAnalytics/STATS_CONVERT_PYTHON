@@ -1,4 +1,5 @@
 Name: STATS CONVERT PYTHON
+Display-Name: Python Conversion from 2.x
 Dialog-Specs: STATS_CONVERT_PYTHON.spd
 Command-Specs: STATS_CONVERT_PYTHON.xml
 Code-Files: STATS_CONVERT_PYTHON.py
