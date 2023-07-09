@@ -9,7 +9,7 @@ Summary: Convert syntax files containing blocks of Python code or Pyth
 Description: This extension converts Python 2 code to Python 3.  It pr
  ocesses Python code in .py files and .sps files
 Author: Jon K Peck
-Version: 1.0.1
+Version: 1.0.2
 Product-Version: 27
 Date: 3/1/2021
 Categories: utility, Python2, conversion
