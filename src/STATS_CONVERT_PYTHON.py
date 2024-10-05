@@ -9,6 +9,7 @@
 # 01-15-2021  Improve error handling and reporting.  Work around api problem.
 # 02-11-2021  Create output directory if needed
 # 02-18-2021  Improve result table formatting
+# 06-24-2023  change end program regex to accommodate end program python.
 
 import glob, os, tempfile, re, shutil
 from lib2to3.main import main as converter
@@ -19,10 +20,10 @@ import logging, threading
 
 
 beginprogpat = r"begin +program *\.|begin +program +python *\."
-endprogpat = r"end *program *\."
+endprogpat = r"end *program.*\."
 
 # debugging
-    # makes debug apply only to the current thread
+        # makes debug apply only to the current thread
 #try:
     #import wingdbstub
     #import threading
